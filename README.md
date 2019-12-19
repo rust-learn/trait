@@ -1,0 +1,2 @@
+# trait
+Trait Examples
