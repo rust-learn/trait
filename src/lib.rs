@@ -1,7 +1,7 @@
 pub trait Summary {
     fn summarize_auther(&self) -> String;
 
-    // default implementation of `introduce`, which we can keep or override in impl block
+    // default implementation of `summarize`, which we can keep or override in impl block
     fn summarize(&self) -> String {
         // default implementation can call the methods that don't have a default implementation
         format!("(Read more from {}...)", self.summarize_auther())
